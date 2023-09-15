@@ -12,7 +12,7 @@ header {
 }
 
 main {
-    display: flex;
+    grid-area: main;
 }
 
 main .aside-bar {
@@ -20,11 +20,20 @@ main .aside-bar {
     min-height: 100vh;
 }
 
-section {
-    color: blue;
-    text-align: center;
-    padding: 5px;
+main .aside-bar .items {
+    display: flex;
 }
+
+.grid .card {
+    text-align: center;
+
+}
+
+.grid .card img {
+    width: 200px;
+
+}
+
 
 footer {
     color: brown;
