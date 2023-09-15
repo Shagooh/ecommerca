@@ -6,7 +6,9 @@
 
 p {
     padding-left: 5px;
+
 }
+
 
 header {
     grid-area: header;
@@ -50,7 +52,7 @@ main {
         "header header"
         "main main"
         "footer footer";
-    gap: 10px;
+    gap: 1px;
 }
 
 .grid-container main {
@@ -63,7 +65,7 @@ main {
 .grid-container .grilla {
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 20px;
+
 }
 
 footer {
