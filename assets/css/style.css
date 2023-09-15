@@ -16,22 +16,26 @@ main {
     grid-area: main;
 }
 
-main .aside-bar {
+.aside-bar {
     background-color: rgb(235, 225, 225);
-    min-height: 100vh;
+    min-height: 50vh;
 }
 
-main .aside-bar .items {
+.aside-bar .items {
     display: flex;
 }
 
-.grid .card {
+.aside-bar ul {
+    list-style: none;
+}
+
+.grilla .card {
     text-align: center;
 
 }
 
-.grid .card img {
-    width: 200px;
+.grilla .card img {
+    width: 150px;
 
 }
 
@@ -51,13 +55,15 @@ main .aside-bar .items {
 }
 
 
-.grid-container .grid {
+.grid-container .grilla {
     display: grid;
     grid-template-columns: auto;
 }
 
 footer {
+    font-size: 10px;
     grid-area: footer;
     text-align: center;
     color: brown;
+    padding: 5px;
 }
