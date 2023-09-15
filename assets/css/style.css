@@ -4,6 +4,10 @@
 
 }
 
+p {
+    padding-left: 5px;
+}
+
 header {
     grid-area: header;
     background: grey;
@@ -18,8 +22,8 @@ main {
 
 .aside-bar {
     background-color: rgb(235, 225, 225);
-    min-height: 50vh;
-    padding: 25px;
+    min-height: 100vh;
+    padding: 20px;
 }
 
 .aside-bar .items {
