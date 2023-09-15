@@ -19,6 +19,7 @@ main {
 .aside-bar {
     background-color: rgb(235, 225, 225);
     min-height: 50vh;
+    padding: 25px;
 }
 
 .aside-bar .items {
