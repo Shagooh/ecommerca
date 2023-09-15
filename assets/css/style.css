@@ -11,10 +11,8 @@ header {
     padding: 5px;
 }
 
-nav {
-    color: red;
-    text-align: center;
-    padding: 5px;
+main {
+    display: flex;
 }
 
 section {
