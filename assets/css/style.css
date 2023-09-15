@@ -51,10 +51,9 @@ main .aside-bar .items {
 }
 
 
-.grid-container .grilla {
+.grid-container .grid {
     display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 20px;
+    grid-template-columns: auto;
 }
 
 footer {
