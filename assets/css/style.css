@@ -5,6 +5,7 @@
 }
 
 header {
+    grid-area: header;
     background: grey;
     color: aqua;
     text-align: center;
@@ -34,11 +35,6 @@ main .aside-bar .items {
 
 }
 
-
-footer {
-    color: brown;
-}
-
 .grid-container {
     display: grid;
     grid-template-areas:
@@ -59,4 +55,10 @@ footer {
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 20px;
+}
+
+footer {
+    grid-area: footer;
+    text-align: center;
+    color: brown;
 }
